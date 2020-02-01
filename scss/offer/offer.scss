@@ -91,6 +91,7 @@
         }
         a {
             color: #fff;
+            letter-spacing: 1px;
             font: 300 1.5rem 'Barlow', sans-serif;
             @media (max-width: 576px) {
                 font: 300 1.2rem 'Barlow', sans-serif;
@@ -106,14 +107,13 @@
     .slick-active {
         a {
             color: #feb016;
-            font:500 2rem 'Barlow', sans-serif;
+            font:700 2rem 'Barlow', sans-serif;
             position: relative;
             top: -8px;
             text-shadow: 4px 2px 7px rgba(0, 0, 0, .4);
             @media (max-width: 990px) {
                 top: 0;
             }
-            font: 300 1.75rem 'Barlow', sans-serif;
         }
     }
 }

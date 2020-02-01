@@ -51,6 +51,7 @@ footer {
     }
     p {
         margin-bottom: 10px;
+        font-weight: 500;
         @media (max-width: 990px) {
             color: #fff;
         }
@@ -59,7 +60,7 @@ footer {
         display: block;
         position: relative;
         color: #00226E;
-        font: 300 .79rem 'Barlow', sans-serif;
+        font: 500 .79rem 'Barlow', sans-serif;
         margin-bottom: 5px;
         @media (max-width: 990px) {
             color: #fff;
