@@ -1,3 +1,9 @@
+.about {
+    @media (max-width: 990px) {
+        margin-bottom: 40px;
+    }
+}
+
 .about-box {
     background: #fff;
     display: inline-block;

@@ -58,9 +58,9 @@ a {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #00226E;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     @media (max-width: 990px) {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     @media (max-width: 576px) {
         font: 700 1.4rem 'Barlow', sans-serif;
@@ -83,4 +83,13 @@ a {
 .text-sm {
     font: 300 .87rem 'Barlow', sans-serif;
     color: #003ABD;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+video {
+    outline: none;
 }
