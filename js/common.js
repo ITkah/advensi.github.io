@@ -24,4 +24,11 @@ $(document).ready(function() {
         $(this).attr('controls',true);
     });
 
+    $(".single-item").slick({
+        dots: true,
+        arrows: true,
+        customPaging: (slider, i) => `<a>0${i + 1}</a>`,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
 });
