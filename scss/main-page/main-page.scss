@@ -16,15 +16,10 @@
 }
 
 .main-screen-box {
-    max-width: 700px;
+    max-width: 800px;
     .main-title {
-        background: linear-gradient(180deg, rgb(5, 65, 206) 90%, #0D61BC 10%, #00226E);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: #0B2349;
-        font: 700 4.8rem 'Barlow', sans-serif;
-        text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
-        -webkit-text-stroke: 1px #000;
+        color: #0033a9;
+        font: 700 6.2rem 'Barlow', sans-serif;
         @media (max-width: 990px) {
             font: 700 4rem 'Barlow', sans-serif;
         }
@@ -37,7 +32,7 @@
     }
     .main-subtitle {
         color: #095bec;
-        font: 500 2.8rem 'Barlow', sans-serif;
+        font: 500 3.9rem 'Barlow', sans-serif;
         margin-bottom: 10px;
         margin-top: -8px;
         @media (max-width: 990px) {
@@ -53,7 +48,7 @@
     }
     .main-text {
         color: #095ced;
-        font: 300 1.55rem 'Barlow', sans-serif;
+        font: 300 1.9rem 'Barlow', sans-serif;
         margin-bottom: 35px;
         margin-top: -8px;
         @media (max-width: 990px) {

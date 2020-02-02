@@ -9,12 +9,10 @@
     @media (max-width: 1024px) {
         height: 900px;
     }
-
     @media (max-width: 990px) {
         padding: 30px 20px;
         height: auto;
     }
-
     @media (max-width: 576px) {
         padding: 15px;
     }
@@ -25,7 +23,7 @@
         position: relative;
         top: 10px;
         @media (max-width: 1024px) {
-           top: -100px;
+            top: -100px;
         }
         @media (max-width: 990px) {
             top: 0;
@@ -63,7 +61,7 @@
     }
     .services-text {
         color: #fff;
-        font: 500 1.125rem 'Barlow', sans-serif;
+        font: 500 1.125rem/26px 'Barlow', sans-serif;
         @media (max-width: 768px) {
             font: 500 1rem 'Barlow', sans-serif;
         }
@@ -94,13 +92,14 @@
             position: relative;
             right: -100px;
             top: 10px;
-            color: #FFC200;
+            background: linear-gradient(162.32deg, #FFC200 0%, #FF785E 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             font: 500 1.125rem 'Barlow', sans-serif;
             font-style: italic;
         }
     }
 }
-
 
 .services-1 {
     display: flex;
@@ -118,8 +117,8 @@
         top: 142px;
     }
     @media (max-width: 990px) {
-       left: 0;
-       top: 0;
+        left: 0;
+        top: 0;
     }
     &:hover {
         background: url(../img/services/service-img-1-hover.png) no-repeat center;
@@ -127,7 +126,7 @@
         .services-btn {
             opacity: 0;
         }
-        .hide-services { 
+        .hide-services {
             opacity: 1;
         }
     }
@@ -142,7 +141,7 @@
         .services-btn {
             opacity: 0;
         }
-        .hide-services { 
+        .hide-services {
             opacity: 1;
         }
     }
@@ -171,7 +170,7 @@
         .services-btn {
             opacity: 0;
         }
-        .hide-services { 
+        .hide-services {
             opacity: 1;
         }
     }
@@ -200,7 +199,7 @@
         .services-btn {
             opacity: 0;
         }
-        .hide-services { 
+        .hide-services {
             opacity: 1;
         }
     }
@@ -225,7 +224,7 @@
         .services-btn {
             opacity: 0;
         }
-        .hide-services { 
+        .hide-services {
             opacity: 1;
         }
     }
@@ -254,7 +253,7 @@
         .services-btn {
             opacity: 0;
         }
-        .hide-services { 
+        .hide-services {
             opacity: 1;
         }
     }

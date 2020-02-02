@@ -81,8 +81,11 @@ a {
 }
 
 .text-sm {
-    font: 300 .87rem 'Barlow', sans-serif;
+    font: 300 1rem 'Barlow', sans-serif;
     color: #003ABD;
+    @media (max-width: 990px) {
+        font-size: .87rem;
+    }
 }
 
 ul {
