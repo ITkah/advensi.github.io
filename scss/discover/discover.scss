@@ -55,6 +55,7 @@
         top: 20px;
         @media (max-width: 990px) {
             top: 0;
+            grid-row-start: 2;
         }
     }
     .discover-box:nth-child(5) {
@@ -62,6 +63,7 @@
         top: 40px;
         @media (max-width: 990px) {
             top: 0;
+            grid-row-start: 4;
         }
     }
 }
