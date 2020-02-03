@@ -119,6 +119,9 @@ footer {
         display: flex;
         flex-direction: column;
         height: 155px;
+        @media (max-width: 990px) {
+            height: 50px;
+        }
     }
     .footer-link {
         margin-bottom: 10px;
@@ -129,6 +132,9 @@ footer {
         color: #fff;
         font: 500 .8rem 'Barlow', sans-serif;
         margin-bottom: 5px;
+        @media (max-width: 990px) {
+            display: none;
+        }
     }
     a {
         transition: .3s;
@@ -170,6 +176,10 @@ footer {
     bottom: 30px;
     cursor: pointer;
     transition: .3s;
+    @media (max-width: 990px) {
+        right: 5px;
+        bottom: 10px;
+    }
     &:hover {
         transform: scale(1.2);
     }

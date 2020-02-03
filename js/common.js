@@ -34,14 +34,14 @@ $(document).ready(function() {
 
 
 
-    $(window).resize(function() {
-        if ($(window).width() < 990) {
-            $('.show-blog').click(function() {
-                $('.blog-box:nth-child(n+2)').slideToggle(250);
-            });
-            $('.show-coment').click(function() {
-                $('.tabs__caption div:nth-of-type(n+3)').slideToggle(250);
-            });
-        }
-    });
+    // $(window).resize(function() {
+    //     if ($(window).width() < 990) {
+    //         $('.show-blog').click(function() {
+    //             $('.blog-box:nth-child(n+2)').slideToggle(250);
+    //         });
+    //         $('.show-coment').click(function() {
+    //             $('.tabs__caption div:nth-of-type(n+3)').slideToggle(250);
+    //         });
+    //     }
+    // });
 });
