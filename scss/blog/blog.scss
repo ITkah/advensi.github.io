@@ -69,6 +69,7 @@
 }
 
 .show-btn {
+    display: none;
     @media (max-width: 990px) {
         margin-top: 30px;
         display: flex;
